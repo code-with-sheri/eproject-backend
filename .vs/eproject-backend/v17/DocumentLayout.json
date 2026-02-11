@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\",
+  "WorkspaceRootPath": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\std2\\documents\\github\\eproject-backend\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\std2\\documents\\github\\eproject-backend\\repositories\\iapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:repositories\\iapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\std2\\documents\\github\\eproject-backend\\repositories\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:repositories\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\migrations\\20260211073316_addapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:migrations\\20260211073316_addapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\migrations\\20260211053227_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:migrations\\20260211053227_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +51,112 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore.txt",
-              "DocumentMoniker": "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\.gitignore.txt",
-              "RelativeDocumentMoniker": ".gitignore.txt",
-              "ToolTip": "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\.gitignore.txt",
-              "RelativeToolTip": ".gitignore.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-02-09T07:14:45.147Z",
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApplicationController.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "Controllers\\ApplicationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:10:04.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\Repositories\\ApplicationRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ApplicationRepository.cs",
-              "ToolTip": "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\Repositories\\ApplicationRepository.cs",
-              "RelativeToolTip": "Repositories\\ApplicationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "20260211073316_AddApplications.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Migrations\\20260211073316_AddApplications.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260211073316_AddApplications.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Migrations\\20260211073316_AddApplications.cs",
+              "RelativeToolTip": "Migrations\\20260211073316_AddApplications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T06:22:34.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T07:33:17.051Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IApplicationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\Repositories\\IApplicationRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IApplicationRepository.cs",
-              "ToolTip": "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\Repositories\\IApplicationRepository.cs",
-              "RelativeToolTip": "Repositories\\IApplicationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\Application.cs",
+              "RelativeDocumentMoniker": "Models\\Application.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\Application.cs",
+              "RelativeToolTip": "Models\\Application.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T06:22:26.239Z",
+              "WhenOpened": "2026-02-11T07:29:44.539Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260211053227_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Migrations\\20260211053227_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260211053227_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Migrations\\20260211053227_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260211053227_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T05:32:28.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T05:23:47.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T05:19:31.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T05:19:01.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T05:18:24.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-11T05:17:00.941Z"
             }
           ]
         }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\eproject-backend.csproj": {}
+    "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\eproject-backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\eproject-backend.csproj": {
+    "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\eproject-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\eproject-backend.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\eproject-backend.csproj",
         "projectName": "eproject-backend",
-        "projectPath": "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\eproject-backend.csproj",
-        "packagesPath": "C:\\Users\\std2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\std2\\Documents\\GitHub\\eproject-backend\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\eproject-backend.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\std2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,24 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
             }
           },
           "imports": [
@@ -74,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
