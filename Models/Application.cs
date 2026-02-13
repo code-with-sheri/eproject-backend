@@ -1,12 +1,16 @@
-﻿namespace eproject_backend.Models
-{
-    public class Application
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public int VacancyId { get; set; }
-        public string Status { get; set; } = "Pending";
-    }
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Http;
 
+public class Application
+{
+    public int Id { get; set; }
+    public string name { get; set; }      // 👈 lowercase
+    public string email { get; set; }     // 👈 lowercase
+    public int vacancyId { get; set; }    // 👈 lowercase
+    public string Status { get; set; }
+
+    public string CvPath { get; set; }
+
+    [NotMapped]
+    public IFormFile cv { get; set; }     // 👈 lowercase
 }

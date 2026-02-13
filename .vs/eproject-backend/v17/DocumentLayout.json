@@ -11,32 +11,20 @@
       "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\models\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:models\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\migrations\\20260211073316_addapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:migrations\\20260211073316_addapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\migrations\\20260211053227_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:migrations\\20260211053227_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|c:\\users\\student\\documents\\e-project-2026\\eproject-backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F156DD5-EF97-4845-AA5C-99DF2525A922}|eproject-backend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,22 +44,23 @@
               "RelativeDocumentMoniker": "Controllers\\ApplicationController.cs",
               "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Controllers\\ApplicationController.cs",
               "RelativeToolTip": "Controllers\\ApplicationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T08:10:04.03Z",
+              "WhenOpened": "2026-02-13T06:44:17.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20260211073316_AddApplications.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Migrations\\20260211073316_AddApplications.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260211073316_AddApplications.cs",
-              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Migrations\\20260211073316_AddApplications.cs",
-              "RelativeToolTip": "Migrations\\20260211073316_AddApplications.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Vacancy.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\Vacancy.cs",
+              "RelativeDocumentMoniker": "Models\\Vacancy.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\Vacancy.cs",
+              "RelativeToolTip": "Models\\Vacancy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T07:33:17.051Z"
+              "WhenOpened": "2026-02-13T06:31:23.952Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -81,82 +70,49 @@
               "RelativeDocumentMoniker": "Models\\Application.cs",
               "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\Application.cs",
               "RelativeToolTip": "Models\\Application.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T07:29:44.539Z",
+              "WhenOpened": "2026-02-13T06:30:53.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20260211053227_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Migrations\\20260211053227_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260211053227_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Migrations\\20260211053227_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260211053227_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T05:32:28.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T05:23:47.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T05:19:31.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T05:19:01.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T05:18:24.258Z"
+              "WhenOpened": "2026-02-13T05:57:07.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-11T05:17:00.941Z"
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Models\\LoginDto.cs",
+              "RelativeToolTip": "Models\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T05:39:18.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\E-project-2026\\eproject-backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T05:34:02.591Z",
+              "EditorCaption": ""
             }
           ]
         }
