@@ -28,6 +28,7 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 app.UseCors("AllowAngular");
+app.UseStaticFiles(); // 👈 Add this
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
@@ -46,6 +47,26 @@ using (var scope = app.Services.CreateScope())
             Password = "admin123",
             Role = "Admin"
         });
+        db.SaveChanges();
+    }
+
+    if (!db.Vacancies.Any())
+    {
+        db.Vacancies.AddRange(
+            new Vacancy { Title = "Security Guard", Description = "Salary: 30,000 PKR / month. 8 Hours Shift." },
+            new Vacancy { Title = "Supervisor", Description = "Salary: 45,000 PKR / month. Day Shift." },
+            new Vacancy { Title = "Control Room Operator", Description = "Salary: 40,000 PKR / month. Night Shift." }
+        );
+        db.SaveChanges();
+    }
+
+    if (!db.Services.Any())
+    {
+        db.Services.AddRange(
+            new Service { Name = "Office Security", Description = "Professional guarding for corporate offices." },
+            new Service { Name = "Home Security", Description = "24/7 protection for residential areas." },
+            new Service { Name = "Event Security", Description = "Specialized security for public and private events." }
+        );
         db.SaveChanges();
     }
 }

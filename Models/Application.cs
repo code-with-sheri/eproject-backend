@@ -1,16 +1,36 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Http;
 
-public class Application
+namespace eproject_backend.Models
 {
-    public int Id { get; set; }
-    public string name { get; set; }      // 👈 lowercase
-    public string email { get; set; }     // 👈 lowercase
-    public int vacancyId { get; set; }    // 👈 lowercase
-    public string Status { get; set; }
+    public class Application
+    {
+        public int Id { get; set; }
+        
+        [Required]
+        public string Name { get; set; }
+        
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
 
-    public string CvPath { get; set; }
+        [Required]
+        public string Cnic { get; set; }
 
-    [NotMapped]
-    public IFormFile cv { get; set; }     // 👈 lowercase
+        public int Age { get; set; }
+
+        [Required]
+        public string Phone { get; set; }
+        
+        [Required]
+        public int VacancyId { get; set; }
+        
+        public string? Status { get; set; } = "Pending";
+
+        public string? CvPath { get; set; }
+
+        [NotMapped]
+        public IFormFile? Cv { get; set; }
+    }
 }
