@@ -81,14 +81,20 @@ namespace eproject_backend.Controllers
 
             app.Status = "Approved";
 
-            // Create User account for Employee
-            var user = new User
+            // Check if user already exists
+            var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == app.Email);
+            if (existingUser == null)
             {
-                Name = app.Name,
-                Email = app.Email,
-                Password = "123456", // Default password
-                Role = "Employee"
-            };
+                // Create User account for Employee
+                var user = new User
+                {
+                    Name = app.Name,
+                    Email = app.Email,
+                    Password = "123456", // Default password
+                    Role = "Employee"
+                };
+                _context.Users.Add(user);
+            }
 
             // Create Employee record
             var employee = new Employee
@@ -100,13 +106,18 @@ namespace eproject_backend.Controllers
                 Role = "Security Staff", // Default role
                 Password = "123456"
             };
-
-            _context.Users.Add(user);
             _context.Employees.Add(employee);
+
+            // Remove Vacancy from public display (Mandate)
+            var vacancy = await _context.Vacancies.FindAsync(app.VacancyId);
+            if (vacancy != null)
+            {
+                _context.Vacancies.Remove(vacancy);
+            }
             
             await _context.SaveChangesAsync();
 
-            return Ok(new { message = "Application approved. Employee and User records created." });
+            return Ok(new { message = "Application approved. Employee and User records created, and vacancy removed." });
         }
 
         // PUT: api/Application/reject/{id}

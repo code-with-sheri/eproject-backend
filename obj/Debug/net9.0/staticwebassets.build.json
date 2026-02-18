@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "Er0plogMdpOHK28X7hu6OcBXigbpzGRXItWL2GaRhOg=",
+  "Hash": "UFc1+qa5bvB4uUUOl0kxGqGs4Tb7OFpvlzX7P4btWbc=",
   "Source": "eproject-backend",
   "BasePath": "_content/eproject-backend",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "eproject-backend\\wwwroot",
+      "Source": "eproject-backend",
+      "ContentRoot": "C:\\Users\\Student\\Documents\\shamas\\eproject-backend\\wwwroot\\",
+      "BasePath": "_content/eproject-backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Student\\Documents\\shamas\\eproject-backend\\wwwroot\\cv\\403d6a30-37fa-4f91-8692-282eebf490eb.png",
+      "SourceId": "eproject-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Student\\Documents\\shamas\\eproject-backend\\wwwroot\\",
+      "BasePath": "_content/eproject-backend",
+      "RelativePath": "cv/403d6a30-37fa-4f91-8692-282eebf490eb#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ofhqqph9t6",
+      "Integrity": "xIhMUf0ydkAZAWcUFxoYqy8aB2n2jvYHROzvNmloSLA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cv\\403d6a30-37fa-4f91-8692-282eebf490eb.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "cv/403d6a30-37fa-4f91-8692-282eebf490eb.ofhqqph9t6.png",
+      "AssetFile": "C:\\Users\\Student\\Documents\\shamas\\eproject-backend\\wwwroot\\cv\\403d6a30-37fa-4f91-8692-282eebf490eb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1836626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xIhMUf0ydkAZAWcUFxoYqy8aB2n2jvYHROzvNmloSLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Feb 2026 04:56:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ofhqqph9t6"
+        },
+        {
+          "Name": "label",
+          "Value": "cv/403d6a30-37fa-4f91-8692-282eebf490eb.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xIhMUf0ydkAZAWcUFxoYqy8aB2n2jvYHROzvNmloSLA="
+        }
+      ]
+    },
+    {
+      "Route": "cv/403d6a30-37fa-4f91-8692-282eebf490eb.png",
+      "AssetFile": "C:\\Users\\Student\\Documents\\shamas\\eproject-backend\\wwwroot\\cv\\403d6a30-37fa-4f91-8692-282eebf490eb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1836626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xIhMUf0ydkAZAWcUFxoYqy8aB2n2jvYHROzvNmloSLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Feb 2026 04:56:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xIhMUf0ydkAZAWcUFxoYqy8aB2n2jvYHROzvNmloSLA="
+        }
+      ]
+    }
+  ]
 }

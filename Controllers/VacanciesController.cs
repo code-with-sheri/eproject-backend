@@ -20,7 +20,7 @@ namespace eproject_backend.Controllers
         [HttpGet]
         public async Task<IActionResult> GetVacancies()
         {
-            var vacancies = await _context.Vacancies.ToListAsync();
+            var vacancies = await _context.Vacancies.AsNoTracking().ToListAsync();
             return Ok(vacancies);
         }
 

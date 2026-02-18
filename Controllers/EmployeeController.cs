@@ -33,6 +33,15 @@ namespace eproject_backend.Controllers
             return Ok(employee);
         }
 
+        // GET: api/Employee/by-email/test@example.com
+        [HttpGet("by-email/{email}")]
+        public async Task<IActionResult> GetEmployeeByEmail(string email)
+        {
+            var employee = await _context.Employees.FirstOrDefaultAsync(e => e.Email == email);
+            if (employee == null) return NotFound();
+            return Ok(employee);
+        }
+
         // POST: api/Employee
         [HttpPost]
         public async Task<IActionResult> CreateEmployee(Employee employee)
@@ -48,6 +57,15 @@ namespace eproject_backend.Controllers
         public async Task<IActionResult> UpdateEmployee(int id, Employee employee)
         {
             if (id != employee.Id) return BadRequest();
+
+            // Update associated User password if changed
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == employee.Email);
+            if (user != null)
+            {
+                user.Password = employee.Password;
+                _context.Entry(user).State = EntityState.Modified;
+            }
+
             _context.Entry(employee).State = EntityState.Modified;
             try
             {
@@ -67,6 +85,14 @@ namespace eproject_backend.Controllers
         {
             var employee = await _context.Employees.FindAsync(id);
             if (employee == null) return NotFound();
+
+            // Find and remove the corresponding user record
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == employee.Email);
+            if (user != null)
+            {
+                _context.Users.Remove(user);
+            }
+
             _context.Employees.Remove(employee);
             await _context.SaveChangesAsync();
             return NoContent();

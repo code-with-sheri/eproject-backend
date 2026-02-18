@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace eproject_backend.Models
 {
@@ -34,6 +35,7 @@ namespace eproject_backend.Models
         public string? Achievements { get; set; }
         
         [Required]
+        [JsonIgnore]
         public string Password { get; set; } = "123456"; // Default password
     }
 }

@@ -22,5 +22,8 @@ namespace eproject_backend.Models
         public string? Status { get; set; } = "Pending";
         
         public DateTime RequestedAt { get; set; } = DateTime.Now;
+
+        public int? AssignedEmployeeId { get; set; }
+        public Employee? AssignedEmployee { get; set; }
     }
 }

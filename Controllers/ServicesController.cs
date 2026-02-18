@@ -20,7 +20,7 @@ namespace eproject_backend.Controllers
         [HttpGet]
         public async Task<IActionResult> GetServices()
         {
-            var services = await _context.Services.ToListAsync();
+            var services = await _context.Services.AsNoTracking().ToListAsync();
             return Ok(services);
         }
 

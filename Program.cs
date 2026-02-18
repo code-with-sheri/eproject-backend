@@ -29,7 +29,6 @@ var app = builder.Build();
 
 app.UseCors("AllowAngular");
 app.UseStaticFiles(); // 👈 Add this
-app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
@@ -37,8 +36,11 @@ app.MapControllers();
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    
+    // Auto-apply migrations
+    db.Database.Migrate();
 
-    if (!db.Users.Any(u => u.Role == "Admin"))
+    if (!db.Users.AsNoTracking().Any(u => u.Role == "Admin"))
     {
         db.Users.Add(new User
         {
@@ -50,7 +52,7 @@ using (var scope = app.Services.CreateScope())
         db.SaveChanges();
     }
 
-    if (!db.Vacancies.Any())
+    if (!db.Vacancies.AsNoTracking().Any())
     {
         db.Vacancies.AddRange(
             new Vacancy { Title = "Security Guard", Description = "Salary: 30,000 PKR / month. 8 Hours Shift." },
@@ -60,7 +62,7 @@ using (var scope = app.Services.CreateScope())
         db.SaveChanges();
     }
 
-    if (!db.Services.Any())
+    if (!db.Services.AsNoTracking().Any())
     {
         db.Services.AddRange(
             new Service { Name = "Office Security", Description = "Professional guarding for corporate offices." },

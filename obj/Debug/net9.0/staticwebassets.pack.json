@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Student\\Documents\\shamas\\eproject-backend\\wwwroot\\cv\\403d6a30-37fa-4f91-8692-282eebf490eb.png",
+      "PackagePath": "staticwebassets\\cv\\403d6a30-37fa-4f91-8692-282eebf490eb.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.eproject-backend.props",
+      "PackagePath": "build\\eproject-backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.eproject-backend.props",
+      "PackagePath": "buildMultiTargeting\\eproject-backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.eproject-backend.props",
+      "PackagePath": "buildTransitive\\eproject-backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.eproject-backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.eproject-backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
