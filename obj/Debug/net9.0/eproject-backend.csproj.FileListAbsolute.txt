@@ -337,3 +337,4 @@ C:\Users\Student\Documents\shamas\eproject-backend\obj\Debug\net9.0\refint\eproj
 C:\Users\Student\Documents\shamas\eproject-backend\obj\Debug\net9.0\eproject-backend.pdb
 C:\Users\Student\Documents\shamas\eproject-backend\obj\Debug\net9.0\eproject-backend.genruntimeconfig.cache
 C:\Users\Student\Documents\shamas\eproject-backend\obj\Debug\net9.0\ref\eproject-backend.dll
+C:\Users\Student\Documents\shamas\eproject-backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
