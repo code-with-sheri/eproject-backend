@@ -12,7 +12,7 @@ namespace eproject_backend.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20260216055738_mymigration")]
-    partial class mymigration
+    partial class MyMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

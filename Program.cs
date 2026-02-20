@@ -1,5 +1,6 @@
-﻿using eproject_backend.Data;
+using eproject_backend.Data;
 using eproject_backend.Models;
+using eproject_backend.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,11 +8,19 @@ var builder = WebApplication.CreateBuilder(args);
 // Controllers
 builder.Services.AddControllers();
 
+// Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 // DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")
     ));
+
+// Repositories
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IApplicationRepository, ApplicationRepository>();
 
 // CORS
 builder.Services.AddCors(options =>
@@ -27,8 +36,15 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 app.UseCors("AllowAngular");
-app.UseStaticFiles(); // 👈 Add this
+app.UseStaticFiles();
 app.UseAuthorization();
 app.MapControllers();
 

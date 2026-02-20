@@ -1,6 +1,6 @@
-﻿namespace eproject_backend.Repositories
+namespace eproject_backend.Repositories
 {
-    public class IUserRepository
+    public interface IUserRepository
     {
     }
 }

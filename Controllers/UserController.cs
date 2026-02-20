@@ -1,20 +1,24 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using eproject_backend.Data;
+using Microsoft.EntityFrameworkCore;
 
-[ApiController]
-[Route("api/[controller]")]
-public class UserController : ControllerBase
+namespace eproject_backend.Controllers
 {
-    private readonly AppDbContext _context;
-
-    public UserController(AppDbContext context)
+    [ApiController]
+    [Route("api/[controller]")]
+    public class UserController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly AppDbContext _context;
 
-    [HttpGet]
-    public IActionResult GetUsers()
-    {
-        return Ok(_context.Users.ToList());
+        public UserController(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetUsers()
+        {
+            return Ok(await _context.Users.ToListAsync());
+        }
     }
 }
