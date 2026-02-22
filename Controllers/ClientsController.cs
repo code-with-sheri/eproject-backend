@@ -1,3 +1,7 @@
+/* 
+ * This is the ClientsController. It manages information about the company's clients.
+ */
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using eproject_backend.Data;
@@ -16,7 +20,7 @@ namespace eproject_backend.Controllers
             _context = context;
         }
 
-        // GET: api/Clients
+        // GET: api/Clients - Fetch all clients
         [HttpGet]
         public async Task<IActionResult> GetClients()
         {
@@ -24,7 +28,7 @@ namespace eproject_backend.Controllers
             return Ok(clients);
         }
 
-        // GET: api/Clients/5
+        // GET: api/Clients/5 - Fetch a single client by ID
         [HttpGet("{id}")]
         public async Task<IActionResult> GetClient(int id)
         {
@@ -33,7 +37,7 @@ namespace eproject_backend.Controllers
             return Ok(client);
         }
 
-        // POST: api/Clients
+        // POST: api/Clients - Add a new client
         [HttpPost]
         public async Task<IActionResult> CreateClient(Client client)
         {
@@ -43,11 +47,11 @@ namespace eproject_backend.Controllers
             return CreatedAtAction(nameof(GetClient), new { id = client.Id }, client);
         }
 
-        // PUT: api/Clients/5
+        // PUT: api/Clients/5 - Update an existing client
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateClient(int id, Client client)
         {
-            if (id != client.Id) return BadRequest();
+            if (id != client.Id) return BadRequest("ID mismatch");
             _context.Entry(client).State = EntityState.Modified;
             try
             {
@@ -61,7 +65,7 @@ namespace eproject_backend.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Clients/5
+        // DELETE: api/Clients/5 - Remove a client
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteClient(int id)
         {
@@ -73,3 +77,4 @@ namespace eproject_backend.Controllers
         }
     }
 }
+

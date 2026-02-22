@@ -1,3 +1,8 @@
+/* 
+ * This is the 'main' file of the backend application.
+ * It sets up the server, connects to the database, and defines how the API behaves.
+ */
+
 using eproject_backend.Data;
 using eproject_backend.Models;
 using eproject_backend.Repositories;
@@ -5,24 +10,26 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Controllers
+// 1. Add Controllers: This tells the server to look for Controller classes (which handle API requests).
 builder.Services.AddControllers();
 
-// Swagger
+// 2. Add Swagger: This creates a useful web page for testing our API endpoints.
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// DbContext
+// 3. Add DbContext: This connects our app to the SQL Server database using the connection string in 'appsettings.json'.
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")
     ));
 
-// Repositories
+// 4. Add Repositories: These are helper classes that handle data operations. 
+// 'AddScoped' means a new instance is created for every web request.
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IApplicationRepository, ApplicationRepository>();
 
-// CORS
+// 5. CORS (Cross-Origin Resource Sharing): 
+// This allows our Angular frontend (running on a different port) to talk to this backend.
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular",
@@ -36,38 +43,49 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// 6. Middleware: These are steps that every request goes through.
 if (app.Environment.IsDevelopment())
 {
+    // If we are developing, show the Swagger UI for easy testing.
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+// Use CORS policy we defined above
 app.UseCors("AllowAngular");
+
+// Enable the server to serve static files like images (stored in wwwroot)
 app.UseStaticFiles();
+
+// Basic authorization setup
 app.UseAuthorization();
+
+// Tell the server to map the URLs to our Controller functions
 app.MapControllers();
 
-// ✅ Seed Admin (runs once)
+// 7. Database Seeding: This block runs when the app starts.
+// It checks if the database has any data. If not, it adds some initial data so the app isn't empty.
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     
-    // Auto-apply migrations
+    // Automatically creates the database tables if they don't exist (Migrations)
     db.Database.Migrate();
 
+    // Check if there is an Admin user. If not, create one.
     if (!db.Users.AsNoTracking().Any(u => u.Role == "Admin"))
     {
         db.Users.Add(new User
         {
             Name = "Admin",
             Email = "admin@system.com",
-            Password = "admin123",
+            Password = "admin123", // In a real app, passwords should be encrypted!
             Role = "Admin"
         });
-        db.SaveChanges();
+        db.SaveChanges(); // Saves the new admin to the database
     }
 
+    // Add some starting Vacancies (Job openings) if none exist
     if (!db.Vacancies.AsNoTracking().Any())
     {
         db.Vacancies.AddRange(
@@ -78,6 +96,7 @@ using (var scope = app.Services.CreateScope())
         db.SaveChanges();
     }
 
+    // Add some starting Services (What the company offers) if none exist
     if (!db.Services.AsNoTracking().Any())
     {
         db.Services.AddRange(
@@ -89,4 +108,5 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
+// 8. Run the App: Start listening for requests!
 app.Run();

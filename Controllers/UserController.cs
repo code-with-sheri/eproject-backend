@@ -1,3 +1,7 @@
+/* 
+ * This is the UserController. It's used to manage the system's users.
+ */
+
 using Microsoft.AspNetCore.Mvc;
 using eproject_backend.Data;
 using Microsoft.EntityFrameworkCore;
@@ -15,10 +19,13 @@ namespace eproject_backend.Controllers
             _context = context;
         }
 
+        // GET: api/User - Fetch all users in the system (Admin, Employees, etc.)
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
-            return Ok(await _context.Users.ToListAsync());
+            // Simply returns everything in the Users table as a list.
+            var users = await _context.Users.ToListAsync();
+            return Ok(users);
         }
     }
 }
